@@ -32,10 +32,37 @@
            padding: 20px;
            text-align: center;
          }
+         </style>
+         <style>
+          @media (min-width: 500px) {
+            body {
+              background-color: inhertit FBC4B8;
+            }
+          }
+          @media (max-width: 600px) {
+            body {
+              background-color: white;
+              }
+            }
+          }
+         </style>
+         <style>
+          @media (min-width: 500px) {
+            h1::before {
+              content: "welcome to Hayden's Webpage";
+            }
+          }
+
+          @media (max-width: 600px) {
+            h1::before {
+              content: "welcome";
+            }
+          }
+         </style>
         </style>
     </head>
     <body>
-      <h1>Welcome to Hayden's Webpage</h1>
+      <h1></h1>
       <ul>
         <li><a href="#section1">Section 1</a></li>
         <li><a href="#section2">Section 2</a></li>
