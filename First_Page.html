@@ -16,6 +16,23 @@
            text-align: center;
          }
         </style>
+        <style>
+         .grid {
+           background-color: gold;
+           display: grid;
+           padding: 15px;
+           grid-column-gap: 20px;
+           grid-row-gap: 10px;
+           grid-template-columns: auto auto auto;
+         }
+
+         .grid-item {
+           background-color: silver;
+           font-size: 20px;
+           padding: 20px;
+           text-align: center;
+         }
+        </style>
     </head>
     <body>
       <h1>Welcome to my Webpage</h1>
@@ -41,5 +58,13 @@
       <p>
         content.
       </p>
+      <div class="grid">
+       <div class="grid-item">1</div>
+       <div class="grid-item">2</div>
+       <div class="grid-item">3</div>
+       <div class="grid-item">4</div>
+       <div class="grid-item">5</div>
+       <div class="grid-item">6</div>
+      </div>
     </body>
 </html>
